@@ -1,0 +1,34 @@
+section.bg {
+  background-color: $bg-color;
+  div.centratura {
+    @include centratura;
+    border-bottom: $border;
+    div.title {
+      @include title;
+    }
+    div.imgs {
+      @include flex-between;
+      div.items-img {
+       @include items-img-flex;
+        img {
+          width: $w-img;
+          height: $h-img;
+        }
+        p {
+          padding: 20px;
+          font-size: $size-text-20;
+        }
+      }
+    }
+    div.img {
+      div.item-img-single {
+          text-align: center;
+          img {
+            width: $w-img;
+          }
+      }
+    }
+
+  }
+
+}

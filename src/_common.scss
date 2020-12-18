@@ -16,6 +16,8 @@
 @mixin centratura {
   width: 90%;
   margin: 0 auto;
+  display: block;
+  padding: 50px 0;
 }
 
 @mixin button-blue {
@@ -24,4 +26,27 @@
   color: white;
   background-color: rgb(48,72,143);
   margin: 20px 5px;
+}
+
+@mixin items-img-flex {
+  width: 32%;
+  text-align: center;
+  margin: 50px 0;
+}
+
+@mixin title {
+  width: 50%;
+  text-align: center;
+  margin: 0px auto;
+  font-size: $size-text-20;
+}
+
+@mixin img {
+  width: $w-img;
+  height: $h-img;
+}
+
+@mixin p {
+  padding: 20px;
+  font-size: $size-text-20;
 }
