@@ -1,0 +1,26 @@
+@import "_variables";
+@import "_common";
+@import "_header";
+@import "_jumbotron";
+@import "_section1";
+@import "_section2";
+@import "_section3";
+@import "_section4";
+@import "_section5";
+@import "_section6";
+@import "_section7";
+@import "_footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: $color-gen;
+}
+
+a {
+  text-decoration: none;
+  color: $color-gen;
+}

@@ -1,0 +1,20 @@
+header {
+  padding-top: 50px;
+  @include centratura;
+  @include flex-between;
+  min-height: $h-header;
+  border-bottom: $border;
+
+  div.logo {
+    font-size: $size-text-25;
+  }
+
+  nav {
+    li {
+      display: inline-block;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    @include flex-between;
+  }
+}
