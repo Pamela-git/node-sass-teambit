@@ -7,6 +7,11 @@ header {
 
   div.logo {
     font-size: $size-text-25;
+    a {
+      img {
+        width: 60%;
+      }
+    }
   }
 
   nav {
@@ -14,7 +19,11 @@ header {
       display: inline-block;
       margin: 0 20px;
       font-weight: bold;
+      // &:hover {
+      //   color: $bt-color;
+      // }
     }
+
     @include flex-between;
   }
 }

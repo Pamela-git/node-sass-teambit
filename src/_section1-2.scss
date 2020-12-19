@@ -21,8 +21,10 @@ section.bg {
       }
     }
     div.img {
+      text-align: center;
       div.item-img-single {
           text-align: center;
+          padding: 30px 0;
           img {
             width: $w-img;
           }

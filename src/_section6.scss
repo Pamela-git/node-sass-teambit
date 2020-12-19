@@ -1,0 +1,25 @@
+div.flex-end {
+  @include flex-end;
+  padding: 50px 0;
+  div.item-end-left {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  div.item-end-right {
+    width: 30%;
+    p {
+      margin: 20px 0;
+      font-size: $size-text-20;
+    }
+    a {
+      font-size: $size-text-20;
+      display: block;
+      margin: 50px 0;
+    }
+    img {
+      width: 70%;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+div.flex-center {
+  padding: 50px 0;
+  background-color: $bg-color;
+  text-align: center;
+  div.item-center {
+    width: 50%;
+    margin: 40px auto;
+  }
+  .text {
+    border: 1px solid black;
+    padding: 20px 20px;
+    background-color: white;
+    div.flex-container {
+        display: flex;
+        margin: 20px 0;
+        div.item-container {
+          margin: 0 10px;
+          span {
+            display: block;
+          }
+        }
+
+    }
+  }
+  div.buttons {
+    button {
+      @include button-blue;
+    }
+    a {
+      display: block;
+    }
+  }
+}

@@ -22,5 +22,12 @@ body {
 
 a {
   text-decoration: none;
-  color: $color-gen;
+  color: black;
+  &:hover {
+    color:$link-color;
+  }
+}
+
+li {
+  list-style-type: none;
 }

@@ -13,6 +13,10 @@
   justify-content: flex-end;
 }
 
+@mixin flex-start {
+  display: flex;
+}
+
 @mixin centratura {
   width: 90%;
   margin: 0 auto;
@@ -24,7 +28,7 @@
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
-  background-color: rgb(48,72,143);
+  background-color: $bt-color;
   margin: 20px 5px;
 }
 

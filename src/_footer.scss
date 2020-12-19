@@ -1,3 +1,27 @@
 footer {
   @include centratura;
+  div.flex-footer {
+    @include flex-between;
+    div.item-footer-logo{
+      width: 35%;
+      display: flex;
+      justify-content: space-between;
+      div.logo-footer {
+        width: 30%;
+        img {
+          width: 100%;
+        }
+      }
+      div.logo-text-footer {
+        width: 68%;
+      }
+    }
+    div.item-footer {
+      width: 15%;
+      li {
+        margin: 20px 0;
+      }
+    }
+
+  }
 }
