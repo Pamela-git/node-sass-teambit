@@ -262,7 +262,9 @@ div.flex-center {
 
 div.flex-center div.item-center {
   width: 50%;
-  margin: 40px auto;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
 }
 
 div.flex-center .text {
@@ -346,7 +348,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #7f14d4;
 }
 
 a:hover {
